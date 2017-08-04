@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A521EEE01EF1163A0072BE30 /* PenguinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521EEDF1EF1163A0072BE30 /* PenguinViewController.swift */; };
+		A53590021F00D541004DF281 /* VertBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53590011F00D541004DF281 /* VertBrush.swift */; };
+		A53590041F00D557004DF281 /* BrushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53590031F00D557004DF281 /* BrushViewController.swift */; };
+		A53590061F00D563004DF281 /* BufferProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53590051F00D563004DF281 /* BufferProvider.swift */; };
+		A53590081F00D570004DF281 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53590071F00D570004DF281 /* Light.swift */; };
+		A535900A1F00D58E004DF281 /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53590091F00D58E004DF281 /* SCNVector3Extensions.swift */; };
+		A535900C1F00D59E004DF281 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A535900B1F00D59E004DF281 /* Vertex.swift */; };
+		A535900E1F00D5B5004DF281 /* float4x4+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A535900D1F00D5B5004DF281 /* float4x4+Extensions.swift */; };
+		A53590101F00D5C0004DF281 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A535900F1F00D5C0004DF281 /* Shaders.metal */; };
+		A53590131F00EE01004DF281 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53590121F00EE00004DF281 /* LineViewController.swift */; };
+		A54125921EF0CD0C0000ABC5 /* SoccerballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54125911EF0CD0C0000ABC5 /* SoccerballViewController.swift */; };
+		A557D26B1EF91A5300FE20C3 /* PartOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557D26A1EF91A5300FE20C3 /* PartOne.swift */; };
+		A557D26D1EF91D1100FE20C3 /* PartTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557D26C1EF91D1100FE20C3 /* PartTwo.swift */; };
+		A557D26F1EF91D1900FE20C3 /* PartThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557D26E1EF91D1900FE20C3 /* PartThree.swift */; };
+		A557D2711EF91D2400FE20C3 /* PartFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557D2701EF91D2400FE20C3 /* PartFour.swift */; };
+		A557D2731EFA4B8C00FE20C3 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557D2721EFA4B8C00FE20C3 /* Plane.swift */; };
 		A5D6F2661EE8FE5600D9A27C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6F2651EE8FE5600D9A27C /* AppDelegate.swift */; };
 		A5D6F2681EE8FE5600D9A27C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D6F2671EE8FE5600D9A27C /* art.scnassets */; };
 		A5D6F26A1EE8FE5600D9A27C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6F2691EE8FE5600D9A27C /* ViewController.swift */; };
@@ -15,6 +31,16 @@
 		A5D6F2721EE8FE5600D9A27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D6F2701EE8FE5600D9A27C /* LaunchScreen.storyboard */; };
 		A5D6F27D1EE8FE5700D9A27C /* AR_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6F27C1EE8FE5700D9A27C /* AR_TestTests.swift */; };
 		A5D6F2881EE8FE5700D9A27C /* AR_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6F2871EE8FE5700D9A27C /* AR_TestUITests.swift */; };
+		A5DA0EC81EFBAE4200C302DC /* OtherPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA0EC71EFBAE4200C302DC /* OtherPlane.swift */; };
+		A5DA0ECA1EFBC21200C302DC /* LastPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA0EC91EFBC21200C302DC /* LastPlane.swift */; };
+		A5DA0ED01EFC5C2A00C302DC /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA0ECF1EFC5C2A00C302DC /* Cube.swift */; };
+		A5DA0ED21EFC5C3A00C302DC /* PBRMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA0ED11EFC5C3A00C302DC /* PBRMaterial.swift */; };
+		A5DA0ED41EFC5C4900C302DC /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA0ED31EFC5C4900C302DC /* ConfigViewController.swift */; };
+		A5DA0ED61EFC5C5400C302DC /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA0ED51EFC5C5400C302DC /* Config.swift */; };
+		A5DA0ED81EFC5C6100C302DC /* CollisionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA0ED71EFC5C6100C302DC /* CollisionCategory.swift */; };
+		A5EE6B741F136FF100B4417D /* TypesOfMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EE6B731F136FF100B4417D /* TypesOfMaterial.swift */; };
+		A5EE6B761F1399F100B4417D /* InsertingCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EE6B751F1399F100B4417D /* InsertingCubes.swift */; };
+		A5FA6FEB1EEFC41900D95C5B /* BasketballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA6FEA1EEFC41900D95C5B /* BasketballViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A521EEDF1EF1163A0072BE30 /* PenguinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinViewController.swift; sourceTree = "<group>"; };
+		A53590011F00D541004DF281 /* VertBrush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertBrush.swift; sourceTree = "<group>"; };
+		A53590031F00D557004DF281 /* BrushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushViewController.swift; sourceTree = "<group>"; };
+		A53590051F00D563004DF281 /* BufferProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferProvider.swift; sourceTree = "<group>"; };
+		A53590071F00D570004DF281 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		A53590091F00D58E004DF281 /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+		A535900B1F00D59E004DF281 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		A535900D1F00D5B5004DF281 /* float4x4+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "float4x4+Extensions.swift"; sourceTree = "<group>"; };
+		A535900F1F00D5C0004DF281 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		A53590121F00EE00004DF281 /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
+		A54125911EF0CD0C0000ABC5 /* SoccerballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerballViewController.swift; sourceTree = "<group>"; };
+		A557D26A1EF91A5300FE20C3 /* PartOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOne.swift; sourceTree = "<group>"; };
+		A557D26C1EF91D1100FE20C3 /* PartTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTwo.swift; sourceTree = "<group>"; };
+		A557D26E1EF91D1900FE20C3 /* PartThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartThree.swift; sourceTree = "<group>"; };
+		A557D2701EF91D2400FE20C3 /* PartFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartFour.swift; sourceTree = "<group>"; };
+		A557D2721EFA4B8C00FE20C3 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		A5D6F2621EE8FE5600D9A27C /* AR Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D6F2651EE8FE5600D9A27C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5D6F2671EE8FE5600D9A27C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +91,16 @@
 		A5D6F2831EE8FE5700D9A27C /* AR TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D6F2871EE8FE5700D9A27C /* AR_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_TestUITests.swift; sourceTree = "<group>"; };
 		A5D6F2891EE8FE5700D9A27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DA0EC71EFBAE4200C302DC /* OtherPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPlane.swift; sourceTree = "<group>"; };
+		A5DA0EC91EFBC21200C302DC /* LastPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPlane.swift; sourceTree = "<group>"; };
+		A5DA0ECF1EFC5C2A00C302DC /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		A5DA0ED11EFC5C3A00C302DC /* PBRMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBRMaterial.swift; sourceTree = "<group>"; };
+		A5DA0ED31EFC5C4900C302DC /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		A5DA0ED51EFC5C5400C302DC /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A5DA0ED71EFC5C6100C302DC /* CollisionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionCategory.swift; sourceTree = "<group>"; };
+		A5EE6B731F136FF100B4417D /* TypesOfMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfMaterial.swift; sourceTree = "<group>"; };
+		A5EE6B751F1399F100B4417D /* InsertingCubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertingCubes.swift; sourceTree = "<group>"; };
+		A5FA6FEA1EEFC41900D95C5B /* BasketballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +128,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5358FFF1F00D4D0004DF281 /* My Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				A5D6F2691EE8FE5600D9A27C /* ViewController.swift */,
+				A521EEDF1EF1163A0072BE30 /* PenguinViewController.swift */,
+				A5FA6FEA1EEFC41900D95C5B /* BasketballViewController.swift */,
+				A54125911EF0CD0C0000ABC5 /* SoccerballViewController.swift */,
+			);
+			path = "My Stuff";
+			sourceTree = "<group>";
+		};
+		A53590001F00D530004DF281 /* AR Brush */ = {
+			isa = PBXGroup;
+			children = (
+				A53590011F00D541004DF281 /* VertBrush.swift */,
+				A53590031F00D557004DF281 /* BrushViewController.swift */,
+				A53590051F00D563004DF281 /* BufferProvider.swift */,
+				A53590071F00D570004DF281 /* Light.swift */,
+				A535900B1F00D59E004DF281 /* Vertex.swift */,
+				A535900D1F00D5B5004DF281 /* float4x4+Extensions.swift */,
+				A535900F1F00D5C0004DF281 /* Shaders.metal */,
+			);
+			path = "AR Brush";
+			sourceTree = "<group>";
+		};
+		A53590111F00EDDD004DF281 /* AR Line */ = {
+			isa = PBXGroup;
+			children = (
+				A53590121F00EE00004DF281 /* LineViewController.swift */,
+			);
+			path = "AR Line";
+			sourceTree = "<group>";
+		};
 		A5D6F2591EE8FE5600D9A27C = {
 			isa = PBXGroup;
 			children = (
+				A5D6F2651EE8FE5600D9A27C /* AppDelegate.swift */,
+				A53590091F00D58E004DF281 /* SCNVector3Extensions.swift */,
 				A5D6F2641EE8FE5600D9A27C /* AR Test */,
 				A5D6F27B1EE8FE5700D9A27C /* AR TestTests */,
 				A5D6F2861EE8FE5700D9A27C /* AR TestUITests */,
@@ -99,9 +186,14 @@
 		A5D6F2641EE8FE5600D9A27C /* AR Test */ = {
 			isa = PBXGroup;
 			children = (
-				A5D6F2651EE8FE5600D9A27C /* AppDelegate.swift */,
+				A53590111F00EDDD004DF281 /* AR Line */,
+				A53590001F00D530004DF281 /* AR Brush */,
+				A5358FFF1F00D4D0004DF281 /* My Stuff */,
+				A5DA0ECE1EFC593800C302DC /* Part 1 */,
+				A5DA0ECD1EFC593000C302DC /* Part 2 */,
+				A5DA0ECC1EFC592800C302DC /* Part 3 */,
+				A5DA0ECB1EFC592000C302DC /* Part 4 */,
 				A5D6F2671EE8FE5600D9A27C /* art.scnassets */,
-				A5D6F2691EE8FE5600D9A27C /* ViewController.swift */,
 				A5D6F26B1EE8FE5600D9A27C /* Main.storyboard */,
 				A5D6F26E1EE8FE5600D9A27C /* Assets.xcassets */,
 				A5D6F2701EE8FE5600D9A27C /* LaunchScreen.storyboard */,
@@ -126,6 +218,48 @@
 				A5D6F2891EE8FE5700D9A27C /* Info.plist */,
 			);
 			path = "AR TestUITests";
+			sourceTree = "<group>";
+		};
+		A5DA0ECB1EFC592000C302DC /* Part 4 */ = {
+			isa = PBXGroup;
+			children = (
+				A557D2701EF91D2400FE20C3 /* PartFour.swift */,
+				A5DA0EC91EFBC21200C302DC /* LastPlane.swift */,
+				A5DA0ECF1EFC5C2A00C302DC /* Cube.swift */,
+				A5DA0ED11EFC5C3A00C302DC /* PBRMaterial.swift */,
+				A5DA0ED31EFC5C4900C302DC /* ConfigViewController.swift */,
+				A5DA0ED51EFC5C5400C302DC /* Config.swift */,
+				A5DA0ED71EFC5C6100C302DC /* CollisionCategory.swift */,
+			);
+			path = "Part 4";
+			sourceTree = "<group>";
+		};
+		A5DA0ECC1EFC592800C302DC /* Part 3 */ = {
+			isa = PBXGroup;
+			children = (
+				A557D26E1EF91D1900FE20C3 /* PartThree.swift */,
+				A5DA0EC71EFBAE4200C302DC /* OtherPlane.swift */,
+				A5EE6B731F136FF100B4417D /* TypesOfMaterial.swift */,
+				A5EE6B751F1399F100B4417D /* InsertingCubes.swift */,
+			);
+			path = "Part 3";
+			sourceTree = "<group>";
+		};
+		A5DA0ECD1EFC593000C302DC /* Part 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A557D26C1EF91D1100FE20C3 /* PartTwo.swift */,
+				A557D2721EFA4B8C00FE20C3 /* Plane.swift */,
+			);
+			path = "Part 2";
+			sourceTree = "<group>";
+		};
+		A5DA0ECE1EFC593800C302DC /* Part 1 */ = {
+			isa = PBXGroup;
+			children = (
+				A557D26A1EF91A5300FE20C3 /* PartOne.swift */,
+			);
+			path = "Part 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +394,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A53590061F00D563004DF281 /* BufferProvider.swift in Sources */,
 				A5D6F26A1EE8FE5600D9A27C /* ViewController.swift in Sources */,
+				A5DA0ED21EFC5C3A00C302DC /* PBRMaterial.swift in Sources */,
+				A557D26F1EF91D1900FE20C3 /* PartThree.swift in Sources */,
+				A557D2731EFA4B8C00FE20C3 /* Plane.swift in Sources */,
+				A5FA6FEB1EEFC41900D95C5B /* BasketballViewController.swift in Sources */,
+				A53590041F00D557004DF281 /* BrushViewController.swift in Sources */,
+				A521EEE01EF1163A0072BE30 /* PenguinViewController.swift in Sources */,
+				A557D2711EF91D2400FE20C3 /* PartFour.swift in Sources */,
+				A5DA0ECA1EFBC21200C302DC /* LastPlane.swift in Sources */,
+				A5DA0ED41EFC5C4900C302DC /* ConfigViewController.swift in Sources */,
+				A535900C1F00D59E004DF281 /* Vertex.swift in Sources */,
+				A53590021F00D541004DF281 /* VertBrush.swift in Sources */,
+				A535900E1F00D5B5004DF281 /* float4x4+Extensions.swift in Sources */,
+				A53590081F00D570004DF281 /* Light.swift in Sources */,
+				A5DA0ED01EFC5C2A00C302DC /* Cube.swift in Sources */,
+				A54125921EF0CD0C0000ABC5 /* SoccerballViewController.swift in Sources */,
+				A5DA0ED81EFC5C6100C302DC /* CollisionCategory.swift in Sources */,
 				A5D6F2661EE8FE5600D9A27C /* AppDelegate.swift in Sources */,
+				A5DA0EC81EFBAE4200C302DC /* OtherPlane.swift in Sources */,
+				A5EE6B761F1399F100B4417D /* InsertingCubes.swift in Sources */,
+				A53590131F00EE01004DF281 /* LineViewController.swift in Sources */,
+				A5EE6B741F136FF100B4417D /* TypesOfMaterial.swift in Sources */,
+				A5DA0ED61EFC5C5400C302DC /* Config.swift in Sources */,
+				A535900A1F00D58E004DF281 /* SCNVector3Extensions.swift in Sources */,
+				A557D26D1EF91D1100FE20C3 /* PartTwo.swift in Sources */,
+				A557D26B1EF91A5300FE20C3 /* PartOne.swift in Sources */,
+				A53590101F00D5C0004DF281 /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +688,7 @@
 				A5D6F28E1EE8FE5700D9A27C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D6F28F1EE8FE5700D9A27C /* Build configuration list for PBXNativeTarget "AR TestTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +697,7 @@
 				A5D6F2911EE8FE5700D9A27C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D6F2921EE8FE5700D9A27C /* Build configuration list for PBXNativeTarget "AR TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +706,7 @@
 				A5D6F2941EE8FE5700D9A27C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
