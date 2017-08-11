@@ -34,6 +34,7 @@ class PlaneTwo: SCNNode {
         let material = SCNMaterial()
         // let img = UIImage(named: "art.scnassets/\(changingTheMats.gettingRandomMaterial())") // causes a new plane to be different every time
         let img = UIImage(named: "art.scnassets/tron-albedo.png")
+        print("3")
         material.diffuse.contents = img
         // Since we are using a cube, we only want to render the tron grid
         // on the top face, make the other sides transparent
@@ -98,6 +99,7 @@ class PlaneTwo: SCNNode {
        // var material: SCNMaterial? = PlaneThree.currentMaterial()
         var material: SCNMaterial? = SCNMaterial()
         var img = UIImage(named: "art.scnassets/\(changingTheMats.gettingRandomMaterial())")
+        print("4")
         material?.diffuse.contents = img
         let transparentMaterial = SCNMaterial()
         transparentMaterial.diffuse.contents = UIColor(white: CGFloat(1.0), alpha: CGFloat(0.0))

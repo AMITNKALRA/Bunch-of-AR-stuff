@@ -226,6 +226,7 @@ class PartThreeView: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDel
         
         var material = SCNMaterial()
         let img = UIImage(named: "\(changingTheMats.gettingRandomMaterial())")
+        print("1")
         material.diffuse.contents = img
         
         theShape.insertMaterial(material, at: 0)
@@ -276,6 +277,7 @@ class PartThreeView: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDel
         
         let material = SCNMaterial()
         let img = UIImage(named: "art.scnassets/tron-albedo.png")
+        print("2")
         material.diffuse.contents = img
         
         theShape.insertMaterial(material, at: 0)
